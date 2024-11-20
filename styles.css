@@ -35,6 +35,7 @@ body, h1, h2, p, img {
   /* Aside Section */
   aside {
     width: 60%;
+    height:150px;
     margin: 20px auto;
     border: 2px solid #cccccc;
     padding: 15px;
