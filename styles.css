@@ -1,66 +1,90 @@
 /* General Reset */
 body, h1, h2, p, img {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333333;
-    background-color: #f4f4f4;
-    padding: 20px;
-  }
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333333;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
 
-  /* Header */
-  header {
-    text-align: center;
-    margin-bottom: 20px;
-  }
+/* Header and Navigation */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
-  /* Main Section */
-  main {
-    width: 70%;
-    margin: 0 auto;
-  }
+nav {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
 
-  main img {
-    width: 150px;
-    height: auto;
-    display: block;
-    margin-top: 10px;
-  }
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
-  /* Aside Section */
-  aside {
-    width: 60%;
-    height:150px;
-    margin: 20px auto;
-    border: 2px solid #cccccc;
-    padding: 15px;
-    background-color: #f9f9f9;
-    color: #333333;
-    border-radius: 8px;
-  }
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
 
-  aside img {
-    width: 200px;
-    height: auto;
-    display: block;
-    margin: 10px auto;
-  }
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
 
-  /* Paragraphs */
-  p {
-    padding: 0;
-    margin-bottom: 10px;
-  }
+/* Main Section */
+main {
+  width: 70%;
+  margin: 0 auto;
+  max-width: 1200px; /* Added max-width for better readability */
+}
 
-  /* Footer */
-  footer {
-    margin-top: 20px;
-    border-top: 1px solid #cccccc;
-    text-align: center;
-    padding-top: 10px;
-  }
+main img {
+  width: 200px; /* Removed height attribute from HTML, controlled in CSS */
+  height: auto; /* CSS ensures proportional height */
+  display: block;
+  margin-top: 10px;
+}
+
+/* Aside Section */
+aside {
+  width: 60%;
+  margin: 20px auto;
+  border: 2px solid #cccccc;
+  padding: 15px;
+  background-color: #f9f9f9;
+  color: #333333;
+  border-radius: 8px;
+}
+
+aside img {
+  width: 200px; 
+  height: auto; 
+  display: block;
+  margin: 10px auto;
+}
+
+/* Paragraphs */
+p {
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  border-top: 1px solid #cccccc;
+  text-align: center;
+  padding-top: 10px;
+}
