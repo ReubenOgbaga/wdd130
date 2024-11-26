@@ -1,90 +1,44 @@
-/* General Reset */
-body, h1, h2, p, img {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  color: #333333;
-  background-color: #f4f4f4;
-  padding: 20px;
-}
-
-/* Header and Navigation */
-header {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-nav {
-  background-color: #333;
-  padding: 10px;
-  text-align: center;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 15px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  font-size: 16px;
-}
-
-/* Main Section */
 main {
-  width: 70%;
-  margin: 0 auto;
-  max-width: 1200px; /* Added max-width for better readability */
+  max-width: 840px;
 }
-
-main img {
-  width: 200px; /* Removed height attribute from HTML, controlled in CSS */
-  height: auto; /* CSS ensures proportional height */
-  display: block;
-  margin-top: 10px;
-}
-
-/* Aside Section */
 aside {
-  width: 60%;
-  margin: 20px auto;
-  border: 2px solid #cccccc;
-  padding: 15px;
-  background-color: #f9f9f9;
-  color: #333333;
-  border-radius: 8px;
+  width: 20rem;
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  background-color: #eee;
+  color: #333;
+  text-align: center;
 }
-
 aside img {
-  width: 200px; 
-  height: auto; 
-  display: block;
-  margin: 10px auto;
+  width: 200px;
+  height: auto;
 }
-
-/* Paragraphs */
+main img{
+  width: 150px;
+  height: auto;
+  border: 1px solid steelblue;
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
+}
 p {
   padding: 0;
-  margin-bottom: 10px;
 }
-
-/* Footer */
 footer {
-  margin-top: 20px;
-  border-top: 1px solid #cccccc;
+  margin-top: 15px;
+  border-top: 1px solid #000;
   text-align: center;
-  padding-top: 10px;
+}
+nav {
+  background-color: steelblue;
+  padding: 10px;
+}
+nav a {
+  color: white;
+  padding: 10px;
+  display: block;
+}
+h1{
+  color: steelblue;
 }
