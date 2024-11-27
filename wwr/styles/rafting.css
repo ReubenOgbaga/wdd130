@@ -76,19 +76,41 @@
       padding: 15px;
       border-radius: 10px;
       z-index: 1;
+      padding: 20px;
+      background-color: #f4f4f4;
+      border-radius:10px;
+      margin:20px;
       
-    }  
+    }
     @media (max-width: 768px) {
       article {
           width: 80%;
           top: 50%;}
+      }
+      article h2{
+        font-family:var(--font-heading);
+        
       }
     .article-img {
       float: right;
       margin: 0 0 10px 10px;
       height: 100px;
       text-align: center;
-    }  
+    }
+    .article-content {
+      display: flex; 
+      align-items: center; 
+      
+    }
+    .article-content p {
+      flex: 1; /* Take up the remaining space for the text */
+      margin-right: 20px; /* Add space between the text and the image */
+    }
+    .article-img {
+    width: 200px; /* Set a fixed width for the image */
+    height: auto;
+    object-fit: cover; /* Maintain image aspect ratio */
+    }
     section{
       padding: 10px;
       justify-content: center;
