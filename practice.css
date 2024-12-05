@@ -1,0 +1,25 @@
+table  {
+    border-collapse: collapse;
+    border: 2px solid yellowgreen;
+    font-family: Times;
+    font-size: 1rem;
+    letter-spacing: 1px
+}
+
+caption {
+    caption-side: top;
+    padding: 10px;
+    font-weight: bold;
+}
+
+thead,
+tfoot {
+    background-color: solid yellowgreen;
+}
+
+th,
+td {
+    border: 1px solid yellowgreen;
+    padding: 10px 20px;
+    
+}
