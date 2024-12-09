@@ -12,7 +12,7 @@
   --accent2-color: #9e8a7d;
   --font-heading: 'Geist Mono', sans-serif;
   --font-body: 'Inter', sans-serif;
-  --text-color: #343434;
+  --text-color: #ffffff;
 }
 
 body {
@@ -27,6 +27,7 @@ header {
   display: grid;
   grid-template-columns:  1fr  0.6fr;
   background-color: var(--primary-color);
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 
@@ -49,7 +50,7 @@ h1 {
   text-align: center;
   font-family: var(--font-heading);
   font-size: 2rem;
-  color: yellowgreen;
+  color: #a4d07b;
   
 }
 
@@ -343,14 +344,14 @@ article {
 
 
 footer p {
-  font-size: 0.9rem;
-  color: var(--accent2-color);
+  font-size: 1rem;
   flex: 1;
 }
 footer {
   display: flex;
   background-color: var(--secondary-color);
   justify-content: center;
+  text-align: center;
   align-items: center;
   padding: 20px;
   position: relative;
@@ -386,11 +387,19 @@ footer a img:hover {
 
 /* Small Footer on Small Screens */
 @media (max-width: 600px) {
+  header {
+    flex-direction: column;
+  .content-grid {
+    grid-template-columns: 1fr;
   footer {
     flex-direction: column;
     text-align: center;
   }
 }
+}
+}
+
+
 .company-info {
   justify-items: center;
 }
@@ -433,6 +442,13 @@ iframe {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: 2px solid #007bff;
+    border: 1px solid #0056b3;
+}
+
 
 .contact-form h2 {
   text-align: center;
