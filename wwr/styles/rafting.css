@@ -364,11 +364,21 @@ footer {
 
 .social-links {
   display: flex;
+  position: absolute;
   gap: 10px;
-  align-items: end;
+  left: 90%;
+
+
 }
+.social-links img {
+  display: flex;
+  justify-content: end;
+  align-content: end;
+}
+
 .sociallinks img {
   width: 30px;
+  
 }
 
 .sociallinks {
