@@ -392,16 +392,22 @@ footer a img:hover {
 /* Small Footer on Small Screens */
 @media (max-width: 600px) {
   header {
-    flex-direction: column;
-  .content-grid {
-    grid-template-columns: 1fr;
-  footer {
-    flex-direction: column;
-    text-align: center;
-  }
+    flex-direction: column;}
 }
+.content-grid {
+  grid-template-columns: 1fr;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
 }
+
+
+footer {
+  flex-direction: column;
+  text-align: center;
 }
+
 
 
 .company-info {
