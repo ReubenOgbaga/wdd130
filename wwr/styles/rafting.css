@@ -114,6 +114,7 @@ nav li a:hover {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
+  
 }
 .section2 figure {
   flex: 1 1 30%;
@@ -140,7 +141,9 @@ figcaption {
 .section2 img {
   width: 200px;
   padding: 0;
+  height: auto;
   margin: 0%;
+  height: 200px;
 }
 
 
@@ -149,7 +152,7 @@ h2 {
 }
 
 h6 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 p {
@@ -275,6 +278,7 @@ article  h6{
 
 article p {
   flex: 1;
+  justify-content: center;
 }
 /* Responsive Header */
 @media (max-width: 768px) {
