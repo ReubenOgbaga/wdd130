@@ -139,9 +139,8 @@ figcaption {
 }
 
 .section2 img {
-  width: 200px;
+  width: 220px;
   padding: 0;
-  height: auto;
   margin: 0%;
   height: 200px;
 }
@@ -262,7 +261,7 @@ footer p {
   
 }
 
-article  h6{
+article  h1{
   display: flex;
   position: absolute;
   width: 60%;
@@ -309,16 +308,13 @@ article p {
   margin: 0 0 0 5px;
 }
 
-.hero h1 {
-  position: absolute;
-  top: 10%;
-  left: 50%;
+
+.hero p {
+  position: relative;
+  left: 4%;
   width: 100%;
-  transform: translate(-50%, -50%);
-  background-color:  rgba(255, 255, 255, 0.9);
-  font-size: 4rem;
   text-align: center;
-  color: var(--accent2-color);
+  color: black;
   font-family: 'Inter', sans-serif;
 }
 
